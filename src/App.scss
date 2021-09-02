@@ -1,0 +1,66 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.text {
+  font-family: "Arial";
+  font-weight: normal;
+  font-size: 12px;
+
+  &--regular {
+    font-size: 14px;
+  }
+}
+
+.button {
+  cursor: pointer;
+  margin: 0 4px;
+  padding: 8px;
+  background-color: cornflowerblue;
+  color: white;
+  border: 1px cornflowerblue solid;
+  border-radius: 2px;
+
+  &--primary {
+  }
+
+
+  &--danger {
+    background-color: crimson;
+    border-color: crimson;
+    color: white;
+  }
+}
+
+.input {
+  border: 1px lightgray solid;
+  border-radius: 2px;
+  padding: 4px;
+}
+
+input:focus-visible {
+    outline: lightslategray auto 1px;
+}
+
+.no-padding {
+  padding: 0 ;
+}
+
+
+ul {
+  padding: 0 16px;
+}
+
+li {
+  :first-child {
+    margin-top: 0;
+  }
+
+  margin-top: 4px;
+}

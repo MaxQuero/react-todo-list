@@ -1,0 +1,26 @@
+.todo-list {
+
+  &__add-task {
+    display: flex;
+    height: 100%;
+  }
+
+  &__tasks-wording {
+    font-size: 18px;
+  }
+
+  &__item {
+    &__content{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .text {
+      margin-right: 12px;
+    }
+  }
+
+
+}
